@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="oracle.eclipse.tools.weblogic.lib.system">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_211/lib/ant-javafx.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_211/lib/dt.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_211/lib/javafx-mx.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_211/lib/jconsole.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_211/lib/packager.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_211/lib/sa-jdi.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_211/lib/tools.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
