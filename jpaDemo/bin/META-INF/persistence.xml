@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<persistence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+xmlns="http://java.sun.com/xml/ns/persistence" version="1.0">
+
+<persistence-unit name="MYJSE">        
+    <provider>
+            org.apache.openjpa.persistence.PersistenceProviderImpl
+        </provider>
+     <!--  <class>mypackage.Employee</class>-->
+        <class>mypackage.Student</class>
+        <properties>
+            <property name="openjpa.ConnectionURL" value=
+                "jdbc:mysql://localhost:3306/test"/>
+            <property name="openjpa.ConnectionDriverName" 
+            value="com.mysql.jdbc.Driver"/>
+            <property name="openjpa.ConnectionUserName" value="root"/>
+            <property name="openjpa.ConnectionPassword" value="mysql"/>
+    <property name="openjpa.Log" value="SQL=TRACE"/>
+        </properties>
+    </persistence-unit>
+</persistence>
