@@ -1,0 +1,59 @@
+2. CONFIGURING WEB LOGIC SERVER
+
+Microsoft Windows [Version 10.0.17763.107]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Administrator>cd \
+
+C:\>cd oracle
+
+C:\Oracle>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 548C-3154
+
+ Directory of C:\Oracle
+
+13-05-2019  11:55    <DIR>          .
+13-05-2019  11:55    <DIR>          ..
+13-05-2019  11:55    <DIR>          Middleware
+               0 File(s)              0 bytes
+               3 Dir(s)  953,445,584,896 bytes free
+
+C:\Oracle>cd middleware
+
+C:\Oracle\Middleware>cd ..
+
+C:\Oracle>cd midd*
+
+C:\Oracle\Middleware>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 548C-3154
+
+ Directory of C:\Oracle\Middleware
+
+13-05-2019  11:55    <DIR>          .
+13-05-2019  11:55    <DIR>          ..
+13-05-2019  11:55    <DIR>          Oracle_Home
+               0 File(s)              0 bytes
+               3 Dir(s)  953,445,584,896 bytes free
+
+C:\Oracle\Middleware>cd oracle_h
+The system cannot find the path specified.
+
+C:\Oracle\Middleware>cd oracle_home
+
+C:\Oracle\Middleware\Oracle_Home>cd oracle_commong
+The system cannot find the path specified.
+
+C:\Oracle\Middleware\Oracle_Home>cd oracle_common
+
+C:\Oracle\Middleware\Oracle_Home\oracle_common>cd common
+
+C:\Oracle\Middleware\Oracle_Home\oracle_common\common>cd bin
+
+C:\Oracle\Middleware\Oracle_Home\oracle_common\common\bin>config
+
+
+
+
+
